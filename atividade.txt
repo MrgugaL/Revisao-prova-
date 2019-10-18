@@ -1,0 +1,48 @@
+Atividades para revisão para a prova:
+
+1 - Faça uma aplicação que gerencie os clientes de uma locadora de carros. Como é uma locadora nova, ela não deve ter mais de 300 clientes.
+ Cada cliente tem os seguintes dados: código, nome e número de carros locados (carros que estão locados atualmente pelo cliente).
+Desenvolva as seguintes funcionalidades:
+
+
+a) Incluir novo cliente no cadastro da locadora. O novo cliente começa com o número de carros locados igual a 0 (zero).
+b) Mostrar os clientes que estão com carros locados. Se o campo "número de carros locados" for igual a 0 (zero) significa que o 
+cliente não tem nenhum carro locado.
+c) Alterar o número de carros locados de um determinado cliente (a pesquisa deve ser feita pelo nome do cliente).
+
+Outras pontuações:
+- Classe para manipular os dados (Clientes);
+- Classe para armazenar os dados no vetor (ClientesVet) com todos os métodos necessários;
+- Classe principal com utilização de menu para executar os métodos da classe ClientesVet quando forem chamados com passagem 
+correta de parâmetros entre as chamadas dos métodos.
+
+
+
+
+
+
+
+
+
+
+
+
+https://github.com/hroatti/OrientacaoObjetos/blob/master/src/com/revisaoProva/Principal.java
+
+https://ava.faesa.br/content/enforced/50046-2019_2_D009057_CI-1010-191-2HC/LPII%20-%20Lista%2007%20-%20Classes%20e%20Objetos.pdf?_&d2lSessionVal=jOIG0ZR8bZUywcRwnNVcTMSU0
+
+
+
+
+
+
+
+2 - Faça uma aplicação para armazenar dados de um conjunto de produtos de uma determinada empresa. A classe de dados deverá se chamar Produtos, onde os atributos dessa classe serão: código, descrição e preço. Sabe-se que pode armazenar até 50 produtos diferentes na estrutura de dados do tipo classe chamada ProdutosVet, onde esta classe será composta de um atributo do tipo vetor e um atributo para controlar a quantidade de elementos armazenados no vetor.
+Faça os seguintes métodos para manipular os dados:
+a) Incluir produtos, lembrando que tem que perguntar se tem espaço no vetor;
+b) Mostrar a descrição de todos os produtos que possuem preço superior a 500,00;
+c) Alterar os preços de todos os produtos diminuindo em 10% (promoção).
+Outras pontuações:
+- Classe para manipular os dados (classe Produtos);
+- Classe para armazenar os dados no vetor (classe ProdutosVet) com todos os métodos solicitados;
+- Classe executável (classe ProdutosMain) com utilização de menu para executar os métodos solicitados acima, na classe ProdutosVet. Usar passagem de parâmetro de forma correta entre as chamadas dos métodos.
